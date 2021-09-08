@@ -9,7 +9,7 @@ Last sub-folders contains the ipynb file to run the single experiment, the image
   - "all_performances_{region}_{TPM}_{model_name}.csv" file, in which are stored the perfomance obtained by the model on each holdout generated 
   - "best_models_{region}_{TPM}_{model_name}.csv" file, that contains a classification, based on the model selection step, of the best parameters that can be used in order to train a model for the given task.
 
-All the experiments have been run in a COLAB environment with a GPU/TPU accelerator, the ipynb files contains also a cell with all the required library needed to run properly the code; for the construction and the training of the NN models it has been used the keras library.
+All the experiments have been run in a COLAB environment with a GPU/TPU accelerator, the ipynb files contains also a cell with all the required library needed to run properly the code;
 
 In order to run properly the ipynb related to the MMNN models the files "best_models_{region}_{TPM}_cnn.csv" and "best_models_{region}_{TPM}_ffnn.csv" need to be loaded on the environment.
 
