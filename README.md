@@ -13,5 +13,3 @@ All the experiments have been run in a COLAB environment with a GPU/TPU accelera
 
 In order to run properly the ipynb related to the MMNN models the files "best_models_{region}_{TPM}_cnn.csv" and "best_models_{region}_{TPM}_ffnn.csv" need to be loaded on the environment.
 
-
-
