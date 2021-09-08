@@ -13,5 +13,5 @@ All the experiments have been run in a COLAB environment with a GPU/TPU accelera
 
 In order to run properly the ipynb related to the MMNN models the files "best_models_{region}_{TPM}_cnn.csv" and "best_models_{region}_{TPM}_ffnn.csv" need to be loaded on the environment.
 
-The "Data visualisation and performance visualisation" contains a visualisation of the data and the performances achieved at each task and a comparison of the results obtained validated by the Wilcoxon test.
+The "Data visualisation and performance visualisation" contains a summary visualisation of the data and performances achieved at each task, followed by comparisons of the results obtained, validated by the Wilcoxon test.
 
