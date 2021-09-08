@@ -1,4 +1,4 @@
-# bioninformatic_project
+# bioinformatic_project
 
 All the experiments have been conducted in separated ipynb files.
 All the experiments are contained in this two main folders:
@@ -12,4 +12,6 @@ Last sub-folders contains the ipynb file to run the single experiment, the image
 All the experiments have been run in a COLAB environment with a GPU/TPU accelerator, the ipynb files contains also a cell with all the required library needed to run properly the code;
 
 In order to run properly the ipynb related to the MMNN models the files "best_models_{region}_{TPM}_cnn.csv" and "best_models_{region}_{TPM}_ffnn.csv" need to be loaded on the environment.
+
+The "Data visualisation and performance visualisation" contains a visualisation of the data and the performances achieved at each task and a comparison of the results obtained validated by the Wilcoxon test.
 
