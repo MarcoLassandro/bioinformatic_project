@@ -5,7 +5,7 @@ All the experiments are contained in this two main folders:
   - "inactive promoters vs active promoters", contains the experiments done on tasks related to the promoters regions;
   - "inactive enhancers vs active enhancers", contains the experiments done on tasks related to the enhancer regions;
 The sub-folders have been organized based on the different TMP thresholds used to decide the activation status of the regions and on the different types of neural network applied on that task.
-Last sub-folders contains the ipynb file to run the single experiment, the images related to the performances obtained with that type of NN model and two files:
+Last sub-folders contains the ipynb file to run the single experiment, the images related to the performances obtained with that type of NN model and two csv files:
   - "all_performances_{region}_{TPM}_{model_name}.csv" file, in which are stored the perfomance obtained by the model on each holdout generated 
   - "best_models_{region}_{TPM}_{model_name}.csv" file, that contains a classification, based on the model selection step, of the best parameters that can be used in order to train a model for the given task.
 
